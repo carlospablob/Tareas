@@ -3,7 +3,7 @@
 
   <section class="main">
     <input id="toggle-all" class="toggle-all" type="checkbox" />
-    <label for="toggle-all">Mark all as complete</label>
+    <label (click)="toggleAll()"  for="toggle-all">Mark all as complete</label>
 
     <app-todos-list></app-todos-list>
   </section>
